@@ -1,0 +1,15 @@
+{
+  "name": "ai-chatbot-node",
+  "version": "1.0.0",
+  "description": "AI-Powered Chatbot with Node.js using OpenAI API, Express, and Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1",
+    "socket.io": "^4.6.0"
+  }
+}

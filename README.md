@@ -8,11 +8,6 @@ An AI-driven chatbot built using Node.js, Express, Socket.io, and the OpenAI API
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 

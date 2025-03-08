@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI-Powered Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; }
+    #chat { flex: 1; padding: 10px; overflow-y: scroll; border: 1px solid #ccc; }
+    #message-form { display: flex; }
+    #message-input { flex: 1; padding: 10px; border: 1px solid #ccc; }
+    #send-button { padding: 10px; border: none; background: #28a745; color: #fff; }
+    .message { margin-bottom: 10px; }
+    .user { font-weight: bold; }
+    .bot { font-style: italic; }
+  </style>
+</head>
+<body>
+  <div id="chat"></div>
+  <form id="message-form">
+    <input id="message-input" autocomplete="off" placeholder="Type your message here..." />
+    <button id="send-button">Send</button>
+  </form>
+
+  <!-- Include Socket.io client -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
